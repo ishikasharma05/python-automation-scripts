@@ -24,3 +24,5 @@ if total_bill > 1000 :
 else:
    print("Total Bill:", total_bill)
    print("No Discount Applied")
+
+

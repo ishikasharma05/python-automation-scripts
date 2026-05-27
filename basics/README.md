@@ -12,3 +12,8 @@ Small scripts built while learning Python fundamentals.
 - Float and int data types
 - Arithmetic operations
 - If/else conditions
+
+| student-grade-calculator.py | Calculates percentage from 5 subject marks and displays result |
+- elif conditions
+- round() function
+- Percentage calculation

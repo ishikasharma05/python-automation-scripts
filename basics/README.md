@@ -17,3 +17,9 @@ Small scripts built while learning Python fundamentals.
 - elif conditions
 - round() function
 - Percentage calculation
+
+| atm-pin-validator.py | Simulates ATM PIN entry with 3 attempts before card block |
+- While loops
+- Break statement
+- Attempt counter logic
+- f-strings

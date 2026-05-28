@@ -18,6 +18,12 @@ Small scripts built while learning Python fundamentals.
 - round() function
 - Percentage calculation
 
+  | student-report-card.py | Student report card using OOP — class with constructor and methods |
+  - Classes and Objects
+- __init__ constructor
+- Instance methods
+- return vs print in methods
+
 | atm-pin-validator.py | Simulates ATM PIN entry with 3 attempts before card block |
 - While loops
 - Break statement

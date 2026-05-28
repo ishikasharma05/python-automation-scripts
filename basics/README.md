@@ -29,3 +29,33 @@ Small scripts built while learning Python fundamentals.
 - Break statement
 - Attempt counter logic
 - f-strings
+
+SDLC Approach :
+Requirement Analysis
+User enters PIN
+Maximum 3 attempts allowed
+Program exits after successful login
+
+Design :
+Use while loop for retry mechanism
+Use counter variable for attempts
+Conditional logic for validation
+Development
+
+Implemented using Python:
+
+loops
+conditions
+f-strings
+Testing
+
+Tested:
+
+correct PIN
+wrong PIN
+max attempt limit
+
+Future Improvements:
+Store PIN securely
+Add account balance features
+Connect with database

@@ -1,6 +1,3 @@
-# Student Report Card — OOP Practice
-# Demonstrates Classes, Objects, Methods and Constructors in Python
-# Creates a Student object and displays their report with grade
 
 class Student:
     

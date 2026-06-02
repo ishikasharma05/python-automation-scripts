@@ -1,0 +1,53 @@
+class LearningTopic:
+
+    def __init__(self, topic_name):
+        self.topic_name = topic_name
+        self.hours_studied = 0
+        self.completed = False
+
+    def study(self, hours):
+        self.hours_studied += hours
+        print(f"{hours} hours added to {self.topic_name}")
+
+    def complete_topic(self):
+        self.completed = True
+        print(f"{self.topic_name} marked as completed")
+
+    def show_progress(self):
+
+        print("\n----- Progress Report -----")
+        print("Topic:", self.topic_name)
+        print("Hours Studied:", self.hours_studied)
+
+        if self.completed:
+            print("Status: Completed")
+        else:
+            print("Status: In Progress")
+
+
+# Creating Objects
+
+python_course = LearningTopic("Python")
+
+linux_course = LearningTopic("Linux")
+
+
+# Studying
+
+python_course.study(3)
+
+python_course.study(2)
+
+linux_course.study(1)
+
+
+# Marking Complete
+
+python_course.complete_topic()
+
+
+# Showing Progress
+
+python_course.show_progress()
+
+linux_course.show_progress()

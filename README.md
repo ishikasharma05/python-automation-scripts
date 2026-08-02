@@ -1,4 +1,5 @@
-# 🐍 Python Automation Scripts
+# 🐍 Python Practice
+
 
 I'm learning Python from scratch as part of my DevOps journey.
 This repo grows with me — one script at a time.
